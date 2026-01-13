@@ -660,7 +660,7 @@ int WERD_CHOICE::GetTopScriptID() const {
   return max_sid;
 }
 
-// Fixes the state_ for a chop at the given blob_position.
+// Fixes the state_ for a chop at the given blob_posiiton.
 void WERD_CHOICE::UpdateStateForSplit(int blob_position) {
   int total_chunks = 0;
   for (unsigned i = 0; i < length_; ++i) {
